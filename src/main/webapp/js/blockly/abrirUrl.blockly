@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="" resourceType="JS" ruleDescription="abrirUrl" ruleName="abrirUrl" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="357" scrolly="-122.99999999999977" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block collapsed="true" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">abrirUrl</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="7mB%naGEBI8v6~o(B[y*" multilayer="true" namespace="cronapi.screen.openUrl" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAbrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20abrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Url%20de%20destino%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nova%20aba?%20:%20L%C3%B3gico%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Largura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Altura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.openUrl}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Url de destino"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.BOOLEAN" name="Nova aba?"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Largura"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Altura"/>
+        </mutation>
+        <value name="ARG0">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="u#1RfiBOYVRLU+1iNXc5" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf</field>
+          </shadow>
+        </value>
+        <value name="ARG1">
+          <block colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Of?Qka{X#dkZLz-=V=-u" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="$NM!tHX@ZKec`C~4XP/6" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Nza;a_yTf6C0ZLr_#wYK" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
